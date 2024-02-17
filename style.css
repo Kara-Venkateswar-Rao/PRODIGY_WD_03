@@ -15,6 +15,7 @@ body{
     flex-direction: column;
     background: black;
     color: azure;
+   
 }
 #container{
     background: teal;
@@ -22,6 +23,11 @@ body{
     width: 320px;
     padding: 20px;
     border-radius: 5px;
+    margin-top: 20px;
+    background-image: url(ticktactoe.jpg);
+    background-position: top;
+    background-size: cover;
+    border: 1px solid whitesmoke;
 }
 #game{
     height: 100%;
@@ -43,21 +49,32 @@ body{
     font-weight: 600;
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: #faebd7d2;
     color: black;
 }
 
 #reset{
     font-size: 17px;
     font-weight: 600;
-    padding: 5px 10px;
+    padding: 5px 15px;
     margin-top: 20px;
     border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 5px;
-    background: skyblue;
+    background: #faebd7
     cursor: pointer;
 }
+.winner-msg{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 35px;
+    width: 100%;
 
+}
+button{
+    cursor: pointer;
+}
